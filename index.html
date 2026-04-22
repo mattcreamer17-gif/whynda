@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A quick read on Whynda, from someone who did the homework.</title>
+<meta name="description" content="Veronica, saw you are pre-launch and working with Codevising on the build. A hypothesis about the handoff that is probably the real reason the app keeps slipping." />
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-wrap">
+    <img src="logo.svg" alt="Whynda" class="logo" width="148" height="40" />
+    <span class="booth-tag">Booth SMB29 / eMerge Americas 2026</span>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">For Veronica Marshall and the Whynda team</p>
+      <h1>A quick read on Whynda, from someone who did the homework.</h1>
+      <p class="lede">The open rental marketplace. Forklifts, telehandlers, aerial lifts, excavators, and the rest of the yard. Miami roots, Latin America on the horizon. This page is one person's read after reading yours.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">30 minutes with Matt Creamer, CRO</a>
+        <span class="cta-note">Florida-based. Bring one thing stuck on your desk for more than two weeks.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="body">
+    <div class="wrap narrow">
+
+      <h2>Opening</h2>
+      <p>Whynda is the peer-to-peer rental marketplace for forklifts, telehandlers, aerial lifts, and the rest of the yard. Founded out of a Miami forklift business with 18 years behind it. Accepted into LvlUp Labs, selected for The Runway at Florida Atlantic, pre-seed in September 2025, and booth SMB29 at eMerge this week. That is the right shape of an early-stage Miami marketplace. The public site says the app is almost here. The interesting question is what ships first, and what ships later by choice.</p>
+
+      <h2>How we would think about Whynda's stack</h2>
+      <p>Most early marketplaces put AI in the wrong place. They try to automate the matching algorithm before they have any liquidity to match. The 60/30/10 frame: roughly 60 percent of the work in a marketplace is traditional code, 30 percent is rule-based logic (pricing tiers, eligibility, safety certification gates), and 10 percent is actual AI. For Whynda, the rule-based layer is where the moat lives. Safety certification, insurance eligibility, KYC on owners, and the flow that blocks a forklift rental until the renter has an OSHA credential. Those are rules. Good rules, written once, beat clever models every time.</p>
+
+      <p>Where AI helps later: verifying owner photos, summarizing damage claims, translating listings into Spanish for the Latin America expansion, flagging suspicious behavior. None of those need to exist in v1. All of them need to be anticipated in the data model so they can be added cleanly when the volume arrives.</p>
+
+      <h2>The relevant experience</h2>
+      <p>Closest thing in the portfolio is a multi-unit operator engagement where the founder held the operating model in his head and the team could not execute against it without long back-and-forth. The fix was writing down the context in a layered structure the whole team could read and edit. That engagement delivered a playbook that survives the founder taking a vacation. Scoped as a tiered sprint with a playbook handoff.</p>
+
+      <p>For the dev-heavy build itself: Eduba partners with <strong>NLP Logix</strong> for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists. If the right move for Whynda is accelerated engineering velocity, we can make that introduction.</p>
+
+      <h2>The methodology</h2>
+      <p>The approach behind this is published as the <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">Interpretable Context Methodology</a>, submitted to ACM TiiS. Folder structure as agent architecture. Context organized so the founder, the outsourced team, and future agents can all read from the same source.</p>
+
+      <h2>A note on trust</h2>
+      <p>Jake also built an online community to 22,000 members in five weeks. Mentioned once for context on distribution and product instinct, not as a pitch.</p>
+
+      <div class="cta-card">
+        <h3>What comes next</h3>
+        <p>30 minutes with Matt Creamer, CRO at Eduba. Based in Florida. Bring one thing about the product that has been stuck on your desk for more than two weeks.</p>
+        <a class="btn btn-primary btn-lg" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book 30 minutes with Matt</a>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Prepared by Eduba. <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></p>
+  </div>
+</footer>
+</body>
+</html>
